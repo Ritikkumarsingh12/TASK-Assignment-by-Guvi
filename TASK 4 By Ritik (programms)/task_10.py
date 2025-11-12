@@ -1,7 +1,7 @@
 # Program to check if there is a sub-list with sum equal to zero
 
 
-#her is the given list 
+#here is the given list 
 numbers = [4, 2, -3, 1, 6]
 found = False
 
@@ -18,3 +18,4 @@ for i in range(len(numbers)):
 
 if not found:
     print("No sub-list found with sum equal to zero.")
+
