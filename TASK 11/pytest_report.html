@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pytest Execution Report</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f6f8;
+            padding: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        .summary {
+            background: #ffffff;
+            padding: 15px;
+            border-radius: 6px;
+            width: 500px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        .pass {
+            color: green;
+            font-weight: bold;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 15px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #e9ecef;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Pytest Automation Test Report</h1>
+
+<div class="summary">
+    <p><strong>Total Test Cases:</strong> 3</p>
+    <p><strong>Passed:</strong> <span class="pass">3</span></p>
+    <p><strong>Failed:</strong> 0</p>
+    <p><strong>Pass Percentage:</strong> <span class="pass">100%</span></p>
+    <p><strong>Status:</strong> <span class="pass">ALL TEST CASES PASSED</span></p>
+</div>
+
+<table>
+    <tr>
+        <th>Test Case Name</th>
+        <th>Status</th>
+    </tr>
+    <tr>
+        <td>test_validate_login_url</td>
+        <td class="pass">PASSED</td>
+    </tr>
+    <tr>
+        <td>test_validate_username_password_fields</td>
+        <td class="pass">PASSED</td>
+    </tr>
+    <tr>
+        <td>test_login_with_invalid_credentials</td>
+        <td class="pass">PASSED</td>
+    </tr>
+</table>
+
+</body>
+</html>
