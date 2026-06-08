@@ -1,0 +1,90 @@
+                                        Test Scenarios Covered
+TC-01 Login With Predefined Users
+
+Validate login functionality using:
+
+standard_user
+problem_user
+performance_glitch_user
+
+Expected Result:
+User should successfully log in.
+
+
+TC-02 Invalid Login
+
+Verify application behavior when invalid credentials are entered.
+
+Expected Result:
+Proper error message should be displayed.
+
+
+TC-03 Logout Functionality
+
+Verify user logout functionality.
+
+Expected Result:
+User should be redirected to login page.
+
+
+TC-04 Cart Icon Visibility
+
+Verify cart icon visibility after login.
+
+Expected Result:
+Cart icon should be displayed.
+
+
+TC-05 Random Product Selection
+
+Randomly select 4 products and capture their details.
+
+Expected Result:
+Selected product details should be captured successfully.
+
+
+TC-06 Add Products To Cart
+
+Add selected products to cart.
+
+Expected Result:
+Cart count should match selected product count.
+
+
+TC-07 Cart Validation
+
+Verify cart item details.
+
+Expected Result:
+Cart items should match added products.
+
+
+TC-08 Checkout Validation
+
+Complete purchase flow.
+
+Expected Result:
+Order should be completed successfully.
+
+
+TC-09 Product Sorting
+
+Validate product sorting functionality.
+
+Sorting Options:
+
+Name (A-Z)
+Name (Z-A)
+Price (Low-High)
+Price (High-Low)
+
+Expected Result:
+Products should be sorted correctly.
+
+
+TC-10 Reset App State
+
+Validate Reset App State feature.
+
+Expected Result:
+Cart should be cleared and application should return to default state.

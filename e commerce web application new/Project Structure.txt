@@ -1,0 +1,31 @@
+SauceDemo_Framework/
+│
+├── pages/
+│   ├── login_page.py
+│   ├── products_page.py
+│   ├── cart_page.py
+│   └── checkout_page.py
+│
+├── tests/
+│   ├── conftest.py
+│   ├── test_login.py
+│   ├── test_invalid_login.py
+│   ├── test_logout.py
+│   ├── test_cart_visibility.py
+│   ├── test_random_product_selection.py
+│   ├── test_add_to_cart.py
+│   ├── test_cart_validation.py
+│   ├── test_checkout.py
+│   ├── test_sorting.py
+│   └── test_reset_app_state.py
+│
+├── testdata/
+│   └── users.csv
+│
+├── utils/
+│   ├── config.py
+│   ├── logger.py
+│   └── helpers.py
+│
+├── requirements.txt
+└── pytest.ini
